@@ -25,12 +25,12 @@ app.locals({
     copyright_year: '2013',
 
     nav: [
-        {id: 'home',   url: '/',        label: 'Home'},
         {id: 'base',   url: '/base/',   label: 'Base'},
         {id: 'grids',  url: '/grids/',  label: 'Grids'},
         {id: 'forms',  url: '/forms/',  label: 'Forms'},
         {id: 'tables', url: '/tables/', label: 'Tables'},
-        {id: 'lists',  url: '/lists/',  label: 'Navigation'}
+        {id: 'lists',  url: '/lists/',  label: 'Navigation'},
+        {id: 'skinbuilder',  url: 'http://yui.github.com/skinbuilder/',  label: 'Skin Builder'}
     ],
 
     yui    : config.yui,
