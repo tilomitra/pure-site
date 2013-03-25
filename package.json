@@ -21,5 +21,17 @@
 
     "main": "server",
 
-    "directories": {"lib": "./lib"}
+    "directories": {"lib": "./lib"},
+
+    "yahoo":
+    {
+        "bugzilla": {
+            "product" : "YUI",
+            "component" : "CSS"
+        },
+        "custodian": {
+            "email": "tilo@yahoo-inc.com",
+            "url": "http://yuilibrary.com"
+       }
+   }
 }
